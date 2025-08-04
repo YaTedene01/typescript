@@ -1,0 +1,1 @@
+console.log("mane tamit demouma");

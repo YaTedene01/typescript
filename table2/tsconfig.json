@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src", 
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  // "include": ["src"],
+  "exclude": [
+    "./src/cyble.ts",
+    "./table2/src/*.dev.ts",
+    "**/*.dev.ts",
+    "./node_modules"
+
+
+  ]
+}

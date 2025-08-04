@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  table2:
+    build: ./table2
+    container_name: table2
+    image: table2:latest
+
+  table3:
+    build: ./table3
+    container_name: table3
+    image: table3:latest
+    
+    
