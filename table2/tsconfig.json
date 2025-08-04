@@ -5,15 +5,21 @@
     "rootDir": "./src", 
     "outDir": "./dist",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "removeComments": true,
+    "noEmitOnError": true
   },
-  // "include": ["src"],
+  "include": ["src"],
   "exclude": [
     "./src/cyble.ts",
     "./table2/src/*.dev.ts",
     "**/*.dev.ts",
     "./node_modules"
 
+  ],  
+  
+ 
 
-  ]
+
+  
 }

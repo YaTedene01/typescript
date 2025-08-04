@@ -1,0 +1,4 @@
+let voiture: { marque: string; annee: number } = {
+  marque: "Toyota",
+  annee: 2022,
+};
